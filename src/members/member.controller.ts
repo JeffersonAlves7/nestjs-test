@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { PrismaSevice } from 'src/database/prisma.service';
-import { MemberBodyDTO } from './member-body-dto';
-import { MemberResponseDTO } from './member-response-dto';
+import { MemberBodyDTO } from './dto/member-body.dto';
+import { MemberResponseDTO } from './dto/member-response.dto';
 import { Member } from '@prisma/client';
 import { ApiBody, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 
